@@ -6,7 +6,7 @@ public class TestStudent {
 Student S1 = new Student("khamis kingi", "male",24);
 GradStudent G1 = new GradStudent("Oyiersupervisor","sct121-07072018");
         System.out.println("name"+S1.getName(),"gender"+S1.getGender(),"age"+S1.getAge());
-        System.out.println("supervisorname"+G1.getRegNo(),"reistration number"+G1.getRegNo());
+        System.out.println("supervisorname"+G1.getSupName(),"reistration number"+G1.getRegNo());
 
 
     }
