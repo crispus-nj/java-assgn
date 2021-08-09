@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Student S1 = new Student("khamis kingi", "male",24);
         GradStudent G1 = new GradStudent("Oyiersupervisor","sct121-07072018");
-        System.out.println("name"+S1.getName(),"gender"+S1.getGender(),"age"+S1.getAge());
-        System.out.println("supervisorname"+G1.getSupName(),"reistration number"+G1.getRegNo());
+        System.out.println(S1);
+        System.out.println(G1);
 
     }
 }
